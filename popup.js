@@ -7,8 +7,8 @@ document.getElementById('highlight-btn').addEventListener('click', () => {
         function: () => {
           // Highlight negative amounts first
           window.highlightNegativeAmounts();
-  
-          // Then find and highlight corresponding positive amounts
+          
+          // Then find and highlight corresponding positive amounts with unique colors
           window.highlightCorrespondingPositiveAmounts();
         }
       });
