@@ -7,7 +7,7 @@ function highlightNegativeAmounts() {
     inputs.forEach(input => {
       const value = parseFloat(input.value.trim());
       if (!isNaN(value) && value < 0) {
-        input.style.backgroundColor = 'yellow';
+        input.style.backgroundColor = 'red';
       }
     });
   }
